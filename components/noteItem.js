@@ -8,9 +8,9 @@ import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 const NoteItem = props => {
   return (
     <TouchableOpacity onPress={props.onDelete}>
-    <View style={styles.listItem}>
-      <Text>{props.title}</Text>
-    </View>
+      <View style={styles.listItem}>
+        <Text>{props.title}</Text>
+      </View>
     </TouchableOpacity>
   );
 };
